@@ -1,0 +1,82 @@
+/*Links and text*/
+:root {
+    --accent-color: rgb(64, 214, 114)
+}
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-link, .nav-link-open {
+    color: rgb(18, 18, 18);
+    text-decoration: underline white !important;
+    transition: text-decoration 0.2s;
+}
+.link {
+    color: var(--accent-color);
+}
+.nav-link-open {
+    text-decoration: underline 0.13rem var(--accent-color) !important;
+}
+.link:hover, .nav-link:hover {
+    text-decoration: underline 0.13rem var(--accent-color) !important;
+}
+
+/*buttons*/
+.sq-btn {
+    border-radius: 0.25rem;
+    background-color: transparent;
+    width: 2.25rem;
+    aspect-ratio: 1;
+    transition: background-color 0.2s;
+    cursor: none;
+}
+.sq-btn svg {
+    width: 100%;
+    height: 100%;
+    padding: 0.4rem;
+}
+.sq-btn:hover {
+    background-color: rgb(230, 230, 230) !important;
+    cursor: pointer;
+}
+.rn-btn {
+    border-radius: 0.7rem !important;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+.pr-btn, .se-btn {
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.45rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.rn-btn svg {
+    margin-left: 0.25rem;
+}
+
+.pr-btn {
+    background-color: var(--accent-color);
+}
+.se-btn:hover {
+    background-color: rgb(230, 230, 230);
+}
+.pr-btn:hover {
+    background-color: rgb(from var(--accent-color) calc(r - 20) calc(g - 20) calc(b - 20));
+}
+
+@media screen and (orientation: portrait) {
+    .c5 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

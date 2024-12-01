@@ -1,0 +1,16 @@
+[
+    {
+        "title" : "Corne v4.1 (Low profile)",
+        "image" : "https://i.etsystatic.com/28160085/r/il/a1f2fd/6066830650/il_fullxfull.6066830650_sksi.jpg",
+        "description" : "The corne is an open source split keyboard designed by <a class=\"link\" href=\"https://github.com/foostan\">Foostan</a>. The two halves of the keyboard connect together via a TRRS cable, and the left side has a USB C jack for connecting to a PC or laptop.\n\nThe corne features a thumb cluster on each side with three keys each for easy switching between layers during typing, and has a total of 42 keys. It has an ergonmic columnar staggered layout, designed to match the natural difference in length between different fingers.\n\nThis one comes with Kailh Choc Purpz switches, and blank low profile keycaps, but we also sell a standard cherry profile version. It also comes mounted in a black 3D printed case made from standard PLA.\n\nThis is the latest version of the corne (v4.1), which, unlike previous models that had a daughter board for the microcontroller, has the microcontroller directly mounted on the board. The corne uses the RP2040, a fast and powerfull microcontroller made by Raspberry Pi.",
+        "EURprice" : 130,
+        "id" : "1"
+    },
+    {
+        "title" : "Corne v4.1 (Regular profile)",
+        "image" : "https://holykeebs.com/cdn/shop/files/2_6a70c51d-0ff3-475c-98a4-2d47f5068121.jpg?v=1709287473&width=1946",
+        "description" : "The corne is an open source split keyboard designed by <a class=\"link\" href=\"https://github.com/foostan\">Foostan</a>. The two halves of the keyboard connect together via a TRRS cable, and the left side has a USB C jack for connecting to a PC or laptop.\n\nThe corne features a thumb cluster on each side with three keys each for easy switching between layers during typing, and has a total of 42 keys. It has an ergonmic columnar staggered layout, designed to match the natural difference in length between different fingers.\n\nThis one comes with Cherry MX Blue switches, and white minimal keycaps, but we also sell a low profile version. It also comes mounted in a black 3D printed case made from standard PLA.\n\nThis is the latest version of the corne (v4.1), which, unlike previous models that had a daughter board for the microcontroller, has the microcontroller directly mounted on the board. The corne uses the RP2040, a fast and powerfull microcontroller made by Raspberry Pi.",
+        "EURprice" : 130,
+        "id" : "2"
+    }
+]
