@@ -1,7 +1,9 @@
 const express = require('express')
+const dotenv = require('dotenv')
 const fs = require('fs')
 const app = express()
-const port = 3000
+dotenv.config()
+const port = 3000 || process.env.port
 
 app.use((req, res, next) => {
     let url = req.url.split('.')
