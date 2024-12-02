@@ -40,7 +40,7 @@ async function getConversionRate(req) {
     let country
     try {
         if (!req.query.c) {
-            const geoReq = await (await fetch(`https://ipinfo.io/${req.headers['CF-Connecting-IP'] || req.ip}/json`)).json()
+            const geoReq = await (await fetch(`https://ipinfo.io/${req.headers['cf-connecting-ip'] || req.ip}/json`)).json()
             if (geoReq) {
                 country = geoReq.country.toUpperCase()
             }
