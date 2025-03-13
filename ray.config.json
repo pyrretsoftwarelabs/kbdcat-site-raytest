@@ -1,0 +1,4 @@
+{
+  "ProjectType" : "server", 
+  "LaunchCommand" : "npm install && node index.js"
+}
