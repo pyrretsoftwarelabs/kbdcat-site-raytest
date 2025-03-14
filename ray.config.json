@@ -3,11 +3,13 @@
   "Pipeline" : [
     {
       "Tool" : "npm",
-      "Command" : "install"
+      "Command" : "install",
+      "Type" : "build"
     }, 
     {
       "Tool" : "node",
-      "Command" : "index.js"
+      "Command" : "index.js",
+      "Type" : "deploy"
     }
   ]
 }
