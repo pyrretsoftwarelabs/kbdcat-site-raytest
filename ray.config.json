@@ -1,4 +1,13 @@
 {
   "ProjectType" : "server", 
-  "LaunchCommand" : "npm install && node index.js"
+  "Pipeline" : [
+    {
+      "Tool" : "npm",
+      "Command" : "install"
+    }, 
+    {
+      "Tool" : "node",
+      "Command" : "index.js"
+    }
+  ]
 }
