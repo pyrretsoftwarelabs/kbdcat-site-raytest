@@ -1,5 +1,4 @@
 {
-  "ProjectType" : "server", 
   "Pipeline" : [
     {
       "Tool" : "npm",
