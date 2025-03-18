@@ -3,7 +3,7 @@ const dotenv = require('dotenv')
 const fs = require('fs')
 const app = express()
 dotenv.config()
-const port = process.env.port || 3000
+const port = process.env["ray-port"] || 3000
 
 app.use((req, res, next) => {
     let url = req.url.split('.')
