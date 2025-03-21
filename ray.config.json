@@ -4,12 +4,7 @@
       "Tool" : "npm",
       "Command" : "install",
       "Type" : "build"
-    }, 
-    {
-      "Tool" : "test",
-      "Command" : "install",
-      "Type" : "build"
-    }, 
+    },
     {
       "Tool" : "node",
       "Command" : "index.js",
